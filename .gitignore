@@ -1,0 +1,85 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Virtual Environment
+# ==========================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Python Packaging
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================
+# Testing
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# ==========================
+# Alembic
+# ==========================
+alembic/__pycache__/
+
+# ==========================
+# Database
+# ==========================
+*.db
+*.sqlite3
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Uploaded Files
+# ==========================
+media/uploads/*
+media/profilepic_uploads/*
+media/ticket_uploads/*
+media/invoices/*
+media/reports/*
+media/exports/*
+media/temp/*
+
+# Keep folder structure
+!media/uploads/.gitkeep
+!media/profilepic_uploads/.gitkeep
+!media/ticket_uploads/.gitkeep
+!media/invoices/.gitkeep
+!media/reports/.gitkeep
+!media/exports/.gitkeep
+!media/temp/.gitkeep
